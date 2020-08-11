@@ -1,0 +1,53 @@
+body {
+    font-family: "Helvetica",arial,sans-serif;
+    font-weight: normal;
+    font-family: proxima-nova;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+    font-size: 16px;
+    -webkit-font-smoothing: subpixel antialiasing !important;
+}
+body {
+  background-image: none;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  color: #444;
+}
+h2,
+.p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1{
+  font-family: Garamond;
+  text-align: center;
+}
+.middle{
+  text-align: center;
+  list-style: none;
+  font-size: 30px;
+
+}
+.image{
+  float: left;
+  left: 5%; 
+  top: 10%; 
+  width: 30%; 
+  height: 42%; 
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.margin{
+  margin-left: 500px; 
+  margin-right: 150px
+}
+
