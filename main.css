@@ -273,5 +273,16 @@ header table {
   #bio {
     font-weight: normal;
     font-size: 20px;
+    width: 100%;
+  }
+  #experience {
+    font-weight: normal;
+    font-size: 20px;
+    width: 100%;
+  }
+  #interest{
+      font-weight: normal;
+      font-size: 20px;
+      width: 100%;
   }
 }
