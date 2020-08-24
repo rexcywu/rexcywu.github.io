@@ -202,7 +202,7 @@ header table {
   box-shadow: 0px 10px 30px #4723e9;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
   .image {
     position: relative;
     width: 100%;
