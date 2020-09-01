@@ -21,8 +21,8 @@ body {
 
 .image {
   position: relative;
-  width: 30%;
-  height: 100%;
+  width: 45%;
+  height: 110%;
   float: left;
   margin-right: 100px;
 }
@@ -138,7 +138,6 @@ header table {
 #bio {
   width: 92vw;
   padding: 6vh 4vw;
-  font-weight: bold;
 }
 
 #bio h1 {
