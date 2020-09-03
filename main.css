@@ -35,7 +35,7 @@ body {
 header {
   font-family: 'Poppins', sans-serif;
   width: 92vw;
-  padding: 3vh 4vw;
+  padding: 1vh 4vw;
   position: fixed;
   font-weight: bold;
   background: #d2acfa;
@@ -96,7 +96,7 @@ header table {
 }
 
 #about h1 {
-  font-size: 45px;
+  font-size: 20px;
   word-wrap: break-word;
 }
 
@@ -200,6 +200,50 @@ header table {
   background: #4723e9;
   box-shadow: 0px 10px 30px #4723e9;
 }
+.drop {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 150px;
+  text-align: right;
+  }
+
+.dropbtn {
+  background-color:#d2acfa;
+  color: white;
+  padding: 16px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+}
+
+.dropdown-content {
+  width: 100%;
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #d2acfa;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #301e83}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #d2acfa;}
+
 
 @media (max-width: 600px) {
   .image {
