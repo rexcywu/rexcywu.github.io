@@ -124,15 +124,14 @@ header table {
 #experience h1 {
   padding: 5px 0px;
   border-bottom: 4px solid#4723e9;
-  border-bottom: px;
-  width: 21%;
+
+  width: 28%;
 }
 
 #interest h1 {
   padding: 5px 0px;
   border-bottom: 4px solid#4723e9;
-  border-bottom: px;
-  width: 15%;
+  width: 20%;
 }
 
 .p1header {
@@ -150,7 +149,7 @@ header table {
 }
 
 .interest {
-  color: #4723e9;
+  color: #8063ff;
   font-size: 36px;
   padding: 12px 17px;
   border-radius: 50%;
@@ -162,8 +161,8 @@ header table {
 .interest:hover {
   cursor: pointer;
   color: #fff;
-  background: #4723e9;
-  box-shadow: 0px 10px 30px #4723e9;
+  background:#8063ff;
+  box-shadow: 0px 10px 30px #8063ff;
 }
 .drop {
   margin: 0;
@@ -245,8 +244,14 @@ header table {
 @media (max-width: 992px) {
   
   .image {
-    width:60%;
-    height: 100%;
+    width: 100vw;
+    height: 40%;
+    margin: 0 auto;
+    padding-right: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
   }
   .background_img {
     position: absolute;
@@ -258,21 +263,21 @@ header table {
     font-size: 18px;
     position: absolute;
     top: 30%;
-    left: -20%;
+    left: -25%;
     float: none;
     font-family: 'Poppins', sans-serif;
   }
   .text_intro {
-    font-size:12px;
-    position: relative;  
-    margin-top:10px;
-    padding-left:0px;
-    text-align: left;
+    margin-top: 10px;
+    display: block;
+    font-size:12px; 
     line-height: normal;
+    text-align: left;
   }
   #home {
-    text-align: center;
-
+    vertical-align: top;
+    display: inline-block;
+    width: 100vw;
   }
 
   header {
