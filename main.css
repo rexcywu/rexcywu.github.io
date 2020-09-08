@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 body {
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: Georgia, Times, "Times New Roman";
   padding: 0px;
   margin: 0px;
   max-width: 100vw;
@@ -64,7 +64,9 @@ body {
 #navigation a:hover {
   border-bottom: 2px solid#301e83;
 }
-
+.list_font {
+  font-size: 18px;
+}
 #experience {
   width: 92vw;
   padding: 2vh 4vw;
